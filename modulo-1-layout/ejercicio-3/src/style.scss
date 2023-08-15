@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+@mixin selected($number: 0, $media: false) {
+  @if $number == 3 {
+    background-color: rgba(0, 0, 0, 0.699);
+  }
+  @if else $number == 1 {
+    background-color: rgba(0, 0, 0, 0.699);
+  }
+}
+
+header {
+  width: 100%;
+}
+
+h1 {
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.bar {
+  margin: 0 20px;
+  background-color: rgba(13, 90, 118, 0.587);
+  color: white;
+  font-weight: 600;
+  @media screen and (min-width: 780px) {
+    margin: 0;
+  }
+  .bar_list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    @media screen and (max-width: 780px) {
+      .bar_list--menu:nth-child(1) {
+        @include selected($number: 1);
+      }
+    }
+    @media screen and (min-width: 780px) {
+      flex-direction: row;
+      .bar_list--menu:nth-child(3) {
+        @include selected($number: 3);
+      }
+    }
+    .bar_list--menu {
+      width: 100%;
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

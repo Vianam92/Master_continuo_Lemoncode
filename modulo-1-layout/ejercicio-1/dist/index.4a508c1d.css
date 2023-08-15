@@ -1,0 +1,54 @@
+.container {
+  grid-gap: 10px;
+  color: #fff;
+  grid-template-columns: repeat(9, 100px);
+  align-items: center;
+  margin: 60px 0;
+  display: grid;
+}
+
+.container .container_box {
+  margin: .1em;
+}
+
+.container .container_box .container_box--span {
+  padding: 1em .3em;
+}
+
+.color-box_base {
+  background-color: #764276;
+}
+
+.darken-1_color {
+  background-color: #6d296d;
+}
+
+.darken-2_color {
+  background-color: #681c68;
+}
+
+.darken-3_color {
+  background-color: #650b65;
+}
+
+.darken-4_color {
+  background-color: #660466;
+}
+
+.lighten-1_color {
+  background-color: #955295;
+}
+
+.lighten-2_color {
+  background-color: #ac73ac;
+}
+
+.lighten-3_color {
+  background-color: #bb96bb;
+}
+
+.lighten-4_color {
+  background-color: #e6c2e6;
+}
+
+/*# sourceMappingURL=index.4a508c1d.css.map */

@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 20px;
+}
+
+.card {
+  border: 1px solid gray;
+  grid-template-rows: repeat(5, auto);
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 10px;
+  width: 350px;
+  padding: 5px;
+  display: grid;
+  box-shadow: 6px 4px 10px #000000b5;
+}
+
+.card .card-image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.card .card-title {
+  height: 30px;
+}
+
+.card .card-text {
+  padding: 20px 8px;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+}
+
+.card .card-fecha {
+  text-align: right;
+  padding-right: 8px;
+}
+
+.card .card-fecha small {
+  color: green;
+}
+
+.card .card-button {
+  color: #fff;
+  background-color: #17b817ba;
+  border: none;
+  height: 50px;
+  margin: 15px 10px;
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=index.b2d9cf43.css.map */

@@ -1,0 +1,41 @@
+@use "temaA" as *;
+
+.base {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+.section_font {
+    .section_font--title {
+        font-family: $principal-font;
+    }
+    .section_font--text-title {
+        font-family: $secondary-font;
+    }
+}
+
+.box {
+    .box_shadow {
+        box-shadow: $shadow-box;
+        height: 100px;
+        line-height: 100px;
+        padding: 0.3em;
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+.red-base {
+    background-color: $primary-base;
+}
+
+.important {
+    background-color: $important;
+}
+
+.warning {
+    background-color: $warning;
+}

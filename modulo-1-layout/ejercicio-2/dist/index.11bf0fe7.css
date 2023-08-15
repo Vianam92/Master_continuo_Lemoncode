@@ -1,0 +1,52 @@
+div.container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+div.box {
+  margin: .1em;
+}
+
+.box-span {
+  padding: 1em .3em;
+}
+
+.color-box_base {
+  background-color: #764276;
+}
+
+.darken-1_color {
+  background-color: #6d296d;
+}
+
+.darken-2_color {
+  background-color: #681c68;
+}
+
+.darken-3_color {
+  background-color: #650b65;
+}
+
+.darken-4_color {
+  background-color: #660466;
+}
+
+.lighten-1_color {
+  background-color: #955295;
+}
+
+.lighten-2_color {
+  background-color: #ac73ac;
+}
+
+.lighten-3_color {
+  background-color: #bb96bb;
+}
+
+.lighten-4_color {
+  background-color: #e6c2e6;
+}
+
+/*# sourceMappingURL=index.11bf0fe7.css.map */

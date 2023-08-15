@@ -1,0 +1,55 @@
+$base-color: #764276;
+$padding-default: 1em 0.3em;
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    grid-gap: 10px;
+    margin: 60px 0;
+    align-items: center;
+    color: white;
+
+    .container_box {
+        margin: 0.1em;
+
+        .container_box--span {
+            padding: $padding-default;
+        }
+    }
+}
+
+.color-box_base {
+    background-color: $base-color;
+}
+
+.darken-1_color {
+    background-color: #6d296d;
+}
+
+.darken-2_color {
+    background-color: #681c68;
+}
+
+.darken-3_color {
+    background-color: #650b65;
+}
+
+.darken-4_color {
+    background-color: #660466;
+}
+
+.lighten-1_color {
+    background-color: #955295;
+}
+
+.lighten-2_color {
+    background-color: #ac73ac;
+}
+
+.lighten-3_color {
+    background-color: #bb96bb;
+}
+
+.lighten-4_color {
+    background-color: #e6c2e6;
+}

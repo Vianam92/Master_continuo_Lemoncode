@@ -1,0 +1,30 @@
+.base {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  line-height: 100px;
+}
+
+.red-base {
+  background-color: red;
+}
+
+.important {
+  background-color: #552485;
+}
+
+.warning {
+  background-color: pink;
+}
+
+div.box {
+  height: 100px;
+}
+
+.box {
+  height: 200px;
+  box-shadow: 2px 2px 2px 1px #0003;
+}
+
+/*# sourceMappingURL=index.e4b55f87.css.map */
