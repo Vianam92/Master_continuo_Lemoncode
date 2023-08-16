@@ -1,5 +1,5 @@
 {
-  "name": "ejercicio-4",
+  "name": "ejercicio-extra",
   "version": "1.0.0",
   "scripts": {
     "serve": "npx parcel src/index.html"
