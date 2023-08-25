@@ -8,6 +8,10 @@ li {
   list-style-type: none;
 }
 
+body {
+  height: 100vh;
+}
+
 .header {
   width: 100%;
 }
@@ -146,6 +150,7 @@ li {
 @media screen and (width >= 768px) {
   .page-container {
     grid-template-columns: 20% 80%;
+    height: 100%;
     display: grid;
   }
 

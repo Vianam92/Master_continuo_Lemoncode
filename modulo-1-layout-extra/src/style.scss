@@ -8,6 +8,10 @@ li {
   list-style-type: none;
 }
 
+body{
+  height: 100vh;
+}
+
 .header {
   width: 100%;
   
@@ -124,6 +128,7 @@ li {
   .page-container{
     display: grid;
     grid-template-columns: 20% 80%;
+    height: 100%;
   }
   nav{
      background-color: rgba(1, 8, 7, 0.828);

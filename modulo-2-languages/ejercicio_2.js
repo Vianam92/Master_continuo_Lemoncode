@@ -13,5 +13,9 @@ const multiConcat = (a,b,c) => {
     return concatArray.concat(c);
 }
 
+//propuesta del profesor
+
+const concat_2 = (...arrays) => arrays.reduce((result, array) => [...result, ...array], []);
+
 console.log(concat(firstArray, secondArray));
 console.log(multiConcat(firstArray, secondArray, firstArray));

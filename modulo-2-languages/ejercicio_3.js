@@ -10,8 +10,7 @@ const newObject = {
 }
 
 function clone(source) {
-  const object = new Object(source);
-  return object;
+  return ({ source });
 }
 
 console.log(clone(newObject));

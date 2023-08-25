@@ -1,0 +1,13 @@
+$title-color: indianred;
+
+div{
+  margin: 20px;
+  text-align: center;
+  h1{
+    color: $title-color;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  img{
+    width: 200px;
+  }
+}

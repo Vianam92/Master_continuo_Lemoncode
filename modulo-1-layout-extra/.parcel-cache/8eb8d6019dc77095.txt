@@ -1,6 +1,6 @@
 6107
-91/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/index.html1692188938990477080 0
-114/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/modulo-1-layout-extra.59712999.js1692188938998477052 0
+91/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/index.html1692689879838444715 0
+114/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/modulo-1-layout-extra.59712999.js1692689879790443786 0
 108/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/dotenv/package.json1692176364777203893 0
 103/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/dotenv/LICENSE1692176364861205171 0
 114/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/dotenv/lib/env-options.js1692176364937206327 0
@@ -547,7 +547,7 @@
 120/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/caniuse-lite/data/regions/HK.js1692176365273211441 0
 120/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/caniuse-lite/data/regions/RS.js1692176365333212355 0
 120/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/caniuse-lite/data/regions/MQ.js1692176365313212050 0
-103/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/index.b2d9cf43.css.map1692188989466332480 0
+103/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/index.b2d9cf43.css.map1692689896722771511 0
 120/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/caniuse-lite/data/regions/AD.js1692176364965206753 0
 120/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/caniuse-lite/data/regions/CA.js1692176365117209067 0
 120/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/caniuse-lite/data/regions/BH.js1692176365097208762 0
@@ -2430,7 +2430,7 @@
 121/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/hosted-git-info/git-host-info.js1692176364829204684 0
 110/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/lmdb/dependencies/lz41692176365029207727 1
 97/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/has-flag1692176364849204988 1
-118/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/modulo-1-layout-extra.59712999.js.map1692188938998477052 0
+118/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/modulo-1-layout-extra.59712999.js.map1692689879790443786 0
 105/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/lodash/omitBy.js1692176365333212355 0
 137/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/hosted-git-info/node_modules/lru-cache/README.md1692176364877205414 0
 120/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/caniuse-lite/data/regions/ET.js1692176365257211198 0
@@ -2606,7 +2606,7 @@
 110/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/safer-buffer/tests.js1692176364933206266 0
 133/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/supports-preserve-symlinks-flag/CHANGELOG.md1692176364921206084 0
 126/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/node-sass/src/libsass/src/inspect.cpp1692176365105208884 0
-90/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/src/style.scss1692188989402332622 0
+90/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/src/style.scss1692689896658770272 0
 103/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/lodash/ceil.js1692176365245211015 0
 114/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/lodash/sortedLastIndex.js1692176365353212659 0
 106/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/node-sass/scripts1692176365261211259 1
@@ -3400,7 +3400,7 @@
 112/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/encoding/.prettierrc.js1692176364829204684 0
 107/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/lodash/invertBy.js1692176365297211807 0
 105/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/lodash/invoke.js1692176365297211807 0
-99/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/index.b2d9cf43.css1692188989466332480 0
+99/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist/index.b2d9cf43.css1692689896722771511 0
 117/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/chrome-trace-event/README.md1692176364885205536 0
 124/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/socks/build/common/receivebuffer.js1692176364949206510 0
 126/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/@parcel/transformer-sass/package.json1692176364905205840 0
@@ -5291,7 +5291,7 @@
 104/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/lodash/unzip.js1692176365369212903 0
 112/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/node-sass/test/types.js1692176365261211259 0
 138/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/node-sass/src/libsass/src/remove_placeholders.cpp1692176365125209188 0
-80/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist1692188989466332480 1
+80/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/dist1692689896722771511 1
 120/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/caniuse-lite/data/regions/GL.js1692176365269211380 0
 112/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/node-sass/test/fixtures1692176365293211746 1
 108/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-extra/node_modules/unique-slug/LICENSE1692176364765203710 0
