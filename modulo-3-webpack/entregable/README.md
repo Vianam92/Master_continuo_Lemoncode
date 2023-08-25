@@ -4,6 +4,10 @@
 npm install
 ```
 
+``` bash
+npm start
+```
+
 - Modo desarrollo
 
 ``` bash
