@@ -1,0 +1,1 @@
+{"mappings":"AAEA;;;;AAIA;;;;AAIA;;;;AAII","sources":["src/main.scss"],"sourcesContent":["$blue-color: teal;\n\n.red-background {\n  background-color: $blue-color;\n}\n\nimg {\n  width: 150px;\n}\n\n.hello {\n  background-color: $blue-color;\n\n  .logo{\n    width:150px;\n  }\n}"],"names":[],"version":3,"file":"index.2103b895.css.map","sourceRoot":"/__parcel_source_root/"}

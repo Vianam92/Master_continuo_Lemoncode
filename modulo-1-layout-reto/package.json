@@ -1,0 +1,13 @@
+{
+  "name": "ejercicio-reto",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "npx parcel src/index.html"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3"
+  }
+}
