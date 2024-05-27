@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  z-index: 4;
+  background-color: black;
   box-shadow: 10px 3px 5px rgba(255, 255, 255, 0.569);
   top: 0;
   width: 100%;
@@ -41,6 +41,12 @@ body {
     display: flex;
     align-items: center;
     column-gap: 20px;
+    :hover{
+      background-color: white;
+      color: black;
+      padding:5px;
+      cursor:pointer;
+    }
   }
 }
 
@@ -58,11 +64,10 @@ body {
   }
   .top {
     display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-flow:column-reverse wrap;
     @media screen and (min-width: 550px) {
       flex-direction: row-reverse;
+      justify-content: space-around;
     }
     .top-item {
       width: 100%;
@@ -73,16 +78,14 @@ body {
       img {
         width: 100%;
         height: auto;
-        object-fit: cover;
-        
+        object-fit: contain;
       }
     }
   }
   .first,
   .second {
     display: flex;
-    column-gap: 10px;
-    row-gap: 10px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
     .item {
@@ -92,8 +95,12 @@ body {
       @media screen and (min-width: 550px) {
         width: 280px;
       }
+      :hover{
+        transform: scale(1.1);
+      }
       img {
           width: 100%;
+          height: auto;
           object-fit: contain;
         }
     }

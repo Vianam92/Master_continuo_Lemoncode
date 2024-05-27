@@ -1,25 +1,27 @@
-6152
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/3.8b78d92b.jpg1693064821322566082 0
-90/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.html1693064821458568198 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/5.1d138fda.jpg1693064821358566642 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/1.a3ed3748.jpg1693064821346566456 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/2.f2832b51.jpg1693064821346566456 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/3.18075af1.jpg1693064821358566642 0
-102/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.4a508c1d.css.map1693064864691253021 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/4.1fd0d836.jpg1693064821342566393 0
-98/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.4a508c1d.css1693064864691253021 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/3.8a323756.jpg1693064821350566518 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/6.e8476881.jpg1693064821346566456 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/2.cc87e2ac.jpg1693064821322566082 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/2.49953b19.jpg1693064821342566393 0
-97/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/logo.73091252.png1693064821350566518 0
+6154
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/3.8b78d92b.jpg1693238040745892226 0
+90/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.html1693238040781892889 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/5.1d138fda.jpg1693238040753892373 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/1.a3ed3748.jpg1693238040757892447 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/2.f2832b51.jpg1693238040757892447 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/3.18075af1.jpg1693238040753892373 0
+102/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.4a508c1d.css.map1693238040789893036 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/4.1fd0d836.jpg1693238040753892373 0
+98/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.4a508c1d.css1693238040785892962 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/3.8a323756.jpg1693238040753892373 0
+97/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.de158e3a.js1693226848911102160 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/6.e8476881.jpg1693238040757892447 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/2.cc87e2ac.jpg1693238040753892373 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/2.49953b19.jpg1693238040753892373 0
+97/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/logo.73091252.png1693238040753892373 0
 117/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/modulo-1-layout-extra.59712999.js.map1693059103642540231 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/5.106586ad.jpg1693064821350566518 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/5.106586ad.jpg1693238040753892373 0
 102/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.b2d9cf43.css.map1693059103642540231 0
-116/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/modulo-1-layout-reto.59712999.js.map1693064821442567949 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/4.9cc0cbb6.jpg1693064821346566456 0
+116/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/modulo-1-layout-reto.59712999.js.map1693238040773892741 0
+101/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.de158e3a.js.map1693226848911102160 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/4.9cc0cbb6.jpg1693238040757892447 0
 98/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/index.b2d9cf43.css1693059103642540231 0
-79/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist1693064864691253021 1
+79/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist1693238040789893036 1
 104/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/dotenv/config.js1693059226601472175 0
 107/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/dotenv/package.json1693059226521467513 0
 107/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/dotenv/CHANGELOG.md1693059226541468679 0
@@ -427,7 +429,7 @@
 104/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/json5/lib/cli.js1693059226537468446 0
 108/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/json5/lib/parse.d.ts1693059226769481965 0
 108/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/json5/lib/require.js1693059226729479634 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/1.96cbb98b.jpg1693064821358566642 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/1.96cbb98b.jpg1693238040753892373 0
 108/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/json5/lib/index.d.ts1693059226769481965 0
 105/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/json5/lib/util.js1693059226745480566 0
 107/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/json5/lib/util.d.ts1693059226777482431 0
@@ -1433,7 +1435,7 @@
 125/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/node-gyp/gyp/pylib/gyp/common_test.py1693059226849486627 0
 115/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/scss-tokenizer/lib/input.js1693059226613472874 0
 118/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/@babel/code-frame/package.json1693059226665475905 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/4.bcc3f351.jpg1693064821358566642 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/4.bcc3f351.jpg1693238040745892226 0
 113/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/stdout-stream/.travis.yml1693059226529467980 0
 122/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/resolve/test/node-modules-paths.js1693059226849486627 0
 108/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/fp/groupBy.js1693059226965493386 0
@@ -1926,7 +1928,7 @@
 137/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/@babel/code-frame/node_modules/has-flag/readme.md1693059226609472641 0
 111/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/strip-ansi/package.json1693059226553469378 0
 134/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/node-sass/src/libsass/docs/build-with-mingw.md1693059226949492454 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/5.352aef3b.jpg1693064821346566456 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/5.352aef3b.jpg1693238040757892447 0
 114/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/resolve/test/resolver/quux1693059226833485694 1
 110/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/sortedUniqBy.js1693059227017496417 0
 102/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/noop.js1693059226997495251 0
@@ -2036,7 +2038,7 @@
 128/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lmdb/dependencies/lmdb-data-v1/libraries1693059226541468679 1
 110/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/socks/.prettierrc.yaml1693059226805484063 0
 103/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/clone/clone.iml1693059226661475671 0
-78/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/src1693059386471061579 1
+78/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/src1693226973817463997 1
 135/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/@parcel/core/test/fixtures/config-node-pipeline1693059226717478935 1
 139/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/@babel/highlight/node_modules/has-flag/package.json1693059226529467980 0
 111/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/node-sass/test/fixtures1693059226973493853 1
@@ -2880,7 +2882,7 @@
 129/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/node-sass/test/fixtures/simple/index.scss1693059226973493853 0
 110/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/@lezer/lr/package.json1693059226701478002 0
 106/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/_hashGet.js1693059226881488491 0
-90/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/src/styles.scss1693064864623251925 0
+90/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/src/styles.scss1693238040377885449 0
 109/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/findLastKey.js1693059226957492920 0
 149/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/node-sass/test/fixtures/include-path/functions/colorBlue.scss1693059226965493386 0
 114/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/resolve/test/precedence.js1693059226853486860 0
@@ -3555,7 +3557,7 @@
 119/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/caniuse-lite/data/regions/CF.js1693059226837485927 0
 126/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lmdb/node_modules/msgpackr/unpack.d.ts1693059226841486161 0
 102/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/negotiator/lib1693059226661475671 1
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/6.07b67ae1.jpg1693064821322566082 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/6.07b67ae1.jpg1693238040753892373 0
 114/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/_initCloneObject.js1693059226885488725 0
 112/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/_createBaseFor.js1693059226857487093 0
 110/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/fp/mergeWith.js1693059226997495251 0
@@ -4471,7 +4473,7 @@
 112/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/minipass-sized/README.md1693059226721479168 0
 126/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/type-fest/source/conditional-pick.d.ts1693059226689477303 0
 107/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/browserslist/cli.js1693059226601472175 0
-94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/1.7bfe3a4b.jpg1693064821350566518 0
+94/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/1.7bfe3a4b.jpg1693238040753892373 0
 99/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/ms/index.js1693059226537468446 0
 111/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/minipass-sized/index.js1693059226617473107 0
 114/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/@parcel/utils/lib/index.js1693059226837485927 0
@@ -5534,7 +5536,7 @@
 142/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/node-sass/src/libsass/docs/build-with-visual-studio.md1693059226949492454 0
 112/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/fp/assignInAll.js1693059226925491055 0
 138/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/node-sass/src/libsass/docs/api-function-example.md1693059226949492454 0
-112/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/modulo-1-layout-reto.59712999.js1693064821442567949 0
+112/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/dist/modulo-1-layout-reto.59712999.js1693238040773892741 0
 129/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/iconv-lite/encodings/tables/shiftjis.json1693059226793483363 0
 113/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/@npmcli/fs/lib/mkdtemp.js1693059226729479634 0
 136/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/caniuse-lite/data/features/keyboardevent-code.js1693059226973493853 0
@@ -5935,7 +5937,7 @@
 135/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/caniuse-lite/data/features/css-cascade-scope.js1693059226865487559 0
 137/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/caniuse-lite/data/features/css-overflow-anchor.js1693059226897489424 0
 137/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/read-pkg/node_modules/type-fest/source/merge.d.ts1693059226697477769 0
-89/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/src/index.html1693060142447760246 0
+89/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/src/index.html1693237962152446306 0
 137/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/caniuse-lite/data/features/requestidlecallback.js1693059227001495484 0
 148/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/caniuse-lite/data/features/mdn-css-unicode-bidi-plaintext.js1693059226981494319 0
 108/home/mariana/Documents/formación_lemoncode/entregas/modulo-1-layout-reto/node_modules/lodash/_baseSlice.js1693059226829485461 0

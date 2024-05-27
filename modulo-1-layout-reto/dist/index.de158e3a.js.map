@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,UAAU,SAAS,cAAc;AACvC,MAAM,cAAc,SAAS,eAAe;AAC5C,QAAQ,IAAI,SAAS","sources":["src/main.js"],"sourcesContent":["const element = document.querySelector('.top');\nconst elementSpan = document.getElementById(\"top-text\");\nconsole.log(element, elementSpan);\n"],"names":[],"version":3,"file":"index.de158e3a.js.map","sourceRoot":"/__parcel_source_root/"}
