@@ -1,0 +1,21 @@
+.article-list{
+  width: 70%;
+  h1{
+    padding-bottom: 1rem;
+  }
+}
+.contain-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  div {
+    width: 200px;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
