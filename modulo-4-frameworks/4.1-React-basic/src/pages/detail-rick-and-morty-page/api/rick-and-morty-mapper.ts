@@ -4,17 +4,17 @@ export interface Characters {
   gender: string;
   species: string;
   status: string;
-  episode: string;
   image: string;
+  episode: string[];
 }
 
-export const rickAndMortyMapper = (characterList: Characters[]) =>
-  characterList.map((character) => ({
+export const rickAndMortyMapper = (character: Characters) =>
+  ({
     name: character.name,
     id: character.id,
     gender: character.gender,
     species: character.species,
     status: character.status,
-    episode: character.episode,
     image: character.image,
-  }));
+    episode: character.episode,
+  });

@@ -44,9 +44,9 @@ export const RickAndMortyPage = () => {
         {filterCharacter.map((character) => {
           return (
             <div key={character.id}>
-              <img alt="" src={character.image} />
+              <img alt={character.name} src={character.image} />
               <h3>{character.name}</h3>
-              <Link to={routesDetail.rickMortyDetail(character.id.toString())}>+</Link>
+              <Link to={routesDetail.rickMortyDetail(character.id.toString())}>Ver detalle</Link>
             </div>
           );
         })}

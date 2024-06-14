@@ -9,7 +9,9 @@ export const DetailRickAndMortyPage: React.FC = () => {
   const [charactersdetail, setCharactersDetail] = useState<Characters>(CharacterEmpty);
 
   useEffect(() => {
-    getCharactersID(Number(id)).then((data) => setCharactersDetail(data));
+    getCharactersID(Number(id)).then((data) => {
+      setCharactersDetail(data)
+    });
   }, []);
 
   return (
