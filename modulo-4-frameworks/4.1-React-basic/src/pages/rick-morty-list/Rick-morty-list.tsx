@@ -1,10 +1,10 @@
 import React, { ChangeEvent, useEffect, useState } from "react";
 import { getCharacters, searchForCharacter } from "./api/api";
 import { Characters } from "./api/rick-and-morty-mapper";
-import { FormLabel, Input } from "@mui/material";
+import { FormLabel } from "@mui/material";
 import { useDebounce } from "use-debounce";
 import { Link } from "react-router-dom";
-import { routes, routesDetail, switchRoutes } from "@/core/router/routes";
+import { routesDetail } from "@/core/router/routes";
 
 export const RickAndMortyPage = () => {
   const [characterList, setCharacterList] = useState<Characters[]>([]);
@@ -36,7 +36,7 @@ export const RickAndMortyPage = () => {
           id="search"
           type="text"
           value={character}
-          placeholder="rick"
+          placeholder="Escribe el personaje"
           onChange={handlerSearch}
         />
       </FormLabel>

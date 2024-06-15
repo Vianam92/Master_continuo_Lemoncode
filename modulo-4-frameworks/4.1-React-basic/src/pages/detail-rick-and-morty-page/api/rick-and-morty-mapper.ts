@@ -1,4 +1,4 @@
-export interface Characters {
+export interface CharactersDetail {
   id: number;
   name: string;
   gender: string;
@@ -8,7 +8,17 @@ export interface Characters {
   episode: string[];
 }
 
-export const rickAndMortyMapper = (character: Characters) =>
+export const CharacterEmpty: CharactersDetail = ({
+  id: 1,
+  name: "",
+  gender: "",
+  species: "",
+  status: "",
+  image: "",
+  episode: [],
+})
+
+export const rickAndMortyMapper = (character: CharactersDetail) =>
   ({
     name: character.name,
     id: character.id,
