@@ -1,17 +1,16 @@
 import { DetailComponentGeneral, routes } from "@/core";
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getCharactersID } from "./api/api";
 import { CharacterEmpty, CharactersDetail } from "./api/rick-and-morty-mapper";
+import { rickAnMortyRepository } from "./api/repository";
 
 export const DetailRickAndMortyPage: React.FC = () => {
   const { id } = useParams();
   const [charactersdetail, setCharactersDetail] = useState<CharactersDetail>(CharacterEmpty);
 
   useEffect(() => {
-    getCharactersID(Number(id)).then((data) => {
+    rickAnMortyRepository(Number(id)).then((data) => {
       setCharactersDetail(data)
-      console.log(data)
     });
   }, []);
 

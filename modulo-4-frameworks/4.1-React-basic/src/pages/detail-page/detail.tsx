@@ -2,6 +2,7 @@ import { DetailComponentGeneral, routes } from "@/core";
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { MemberDetailEntity, createDefaultMemberDetail } from "./detail.model";
+import { gitHubService } from "./api/github-service";
 
 export const DetailPage: React.FC = () => {
   const [member, setMember] = React.useState<MemberDetailEntity>(
@@ -10,9 +11,7 @@ export const DetailPage: React.FC = () => {
   const { id } = useParams();
 
   React.useEffect(() => {
-    fetch(`https://api.github.com/users/${id}`)
-      .then((response) => response.json())
-      .then((json) => setMember(json));
+    gitHubService(id).then((data) => setMember(data));
   }, []);
 
   return (

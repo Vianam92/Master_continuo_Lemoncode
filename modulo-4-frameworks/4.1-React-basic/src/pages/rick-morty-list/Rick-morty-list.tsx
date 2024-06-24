@@ -1,10 +1,10 @@
 import React, { ChangeEvent, useEffect, useState } from "react";
-import { getCharacters, searchForCharacter } from "./api/api";
 import { Characters } from "./api/rick-and-morty-mapper";
 import { FormLabel } from "@mui/material";
 import { useDebounce } from "use-debounce";
 import { Link } from "react-router-dom";
 import { routesDetail } from "@/core/router/routes";
+import { rickAndMortyListRepository, rickAndMortySearchRepository } from "./api/repository";
 
 export const RickAndMortyPage = () => {
   const [characterList, setCharacterList] = useState<Characters[]>([]);
@@ -15,11 +15,11 @@ export const RickAndMortyPage = () => {
   const [debounceFilter] = useDebounce(character, 1000);
 
   useEffect(() => {
-    getCharacters().then((data) => setCharacterList(data));
+    rickAndMortyListRepository().then((data) => setCharacterList(data));
   }, []);
 
   useEffect(() => {
-    searchForCharacter(character).then((data) => setFilterCharacter(data));
+    rickAndMortySearchRepository(character).then((data) => setFilterCharacter(data));
   }, [debounceFilter]);
 
   const handlerSearch = (e: ChangeEvent<HTMLInputElement>) => {

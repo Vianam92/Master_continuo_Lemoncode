@@ -5,7 +5,7 @@ const API = "https://rickandmortyapi.com/api/character";
 export const getCharacters = async (): Promise<Characters[]> => {
   const response = await fetch(API);
   const data = await response.json();
-  return rickAndMortyMapper(data.results);
+  return data.results;
 };
 
 export const searchForCharacter = async (
@@ -13,5 +13,5 @@ export const searchForCharacter = async (
 ): Promise<Characters[]> => {
   const resp = await fetch(`${API}/?name=${character}`);
   const data = await resp.json();
-  return rickAndMortyMapper(data.results);
+  return data.results;
 };
