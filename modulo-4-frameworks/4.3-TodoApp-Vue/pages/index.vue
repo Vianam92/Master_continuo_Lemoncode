@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex flex-col items-center  gap-x-8 gap-y-4">
     <AddTasks />
     <TaskList />
   </div>
@@ -11,4 +11,12 @@ import { defineComponent } from "vue";
 export default defineComponent({});
 </script>
 
-<style></style>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+</style>
