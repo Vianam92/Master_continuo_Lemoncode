@@ -1,0 +1,7 @@
+<header>
+    <img src="assets/logo.png" alt="Logo">
+    <h1>My App</h1>
+    <span *ngIf="authService.isLoggedIn">{{ authService.getUsername()}}</span>
+    <button mat-button (click)="logout()">Logout</button>
+  </header>
+  
