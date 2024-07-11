@@ -1,11 +1,27 @@
 <template>
   <ul class="flex flex-col items-center gap-x-8 gap-y-4">
-    <li v-for="(task, index) in tasks" :key="index" class="flex justify-between">
+    <li
+      v-for="(task, index) in tasks"
+      :key="index"
+      class="flex justify-between"
+    >
       <span :class="{ completed: task.completed }">{{ task.text }}</span>
       <div>
-        <button @click="toggleTask(index)">✔️</button>
-        <button @click="removeTask(index)">❌</button>
-        <button @click="editTask(index)">✏️</button>
+        <button
+          @click="toggleTask(index)"
+          aria-label="Marcar Tarea como completada"
+        >
+          ✔️
+          <span class="sr-only">Marcar tarea como completada</span>
+        </button>
+        <button @click="removeTask(index)" aria-label="Eliminar tarea">
+          ❌
+          <span class="sr-only">Eliminar tarea</span>
+        </button>
+        <button @click="editTask(index)" aria-label="Editar tarea">
+          ✏️
+          <span class="sr-only">Editar tarea</span>
+        </button>
       </div>
     </li>
   </ul>
@@ -34,7 +50,8 @@ const editTask = (index) => {
 </script>
 
 <style scoped>
-ul, li{
+ul,
+li {
   width: 100%;
 }
 .completed {
@@ -42,5 +59,15 @@ ul, li{
 }
 button {
   margin-left: 0.5rem;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 </style>

@@ -5,10 +5,6 @@ interface Task {
   completed: boolean;
 }
 
-interface TodoState {
-  tasks: Task[];
-}
-
 export const useTodoStore = defineStore(
   "todo",
   () => {
