@@ -19,6 +19,7 @@ export class AuthService {
     if (username === this.VALID_USERNAME && password === this.VALID_PASSWORD) {
       localStorage.setItem("isLoggedIn", `${this.isLoggedIn}`);
       localStorage.setItem("username", `${username}`);
+      setTimeout(() => this.isLoggedIn = true, 2001)
       return of(true).pipe(delay(2000));
     }
     return of(false).pipe(delay(2000));

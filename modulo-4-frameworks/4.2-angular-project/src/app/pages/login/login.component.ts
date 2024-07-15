@@ -50,7 +50,7 @@ export class LoginComponent {
         .subscribe((success) => {
           this.loading = false;
           if (success) {
-            
+           this.router.navigate(["/dashboard"]) 
           } else {
             console.log('Crendeciales no válidas');
           }

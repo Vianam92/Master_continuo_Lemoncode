@@ -3,5 +3,8 @@
 
 <app-public-menu *ngIf="!authService.isLoggedIn"></app-public-menu>
 <app-private-menu *ngIf="authService.isLoggedIn"></app-private-menu>
-<router-outlet></router-outlet>
+<div>
+  <router-outlet></router-outlet>
+</div>
+
 <app-footer></app-footer>
