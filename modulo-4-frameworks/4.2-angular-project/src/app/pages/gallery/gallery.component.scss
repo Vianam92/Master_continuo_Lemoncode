@@ -1,0 +1,42 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  .selected-images {
+    div {
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 0.3rem;
+      width: 100%;
+      justify-content: center;
+    }
+    .selected {
+      border: 2px solid rgba(255, 64, 0, 0.523);
+    }
+    .images-container {
+      width: 50px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  .image-list-selected {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    .selectedImage {
+      object-fit: cover;
+      height: auto;
+    }
+  }
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  button {
+    margin: 5px;
+  }
+}

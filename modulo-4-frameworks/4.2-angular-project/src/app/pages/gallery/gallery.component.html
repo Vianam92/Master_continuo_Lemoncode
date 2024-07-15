@@ -1,0 +1,63 @@
+<article class="gallery">
+  <div class="selected-images">
+   <div>
+    <img
+    *ngFor="let image of getPaginatedImages() "
+    [src]="image.src"
+    (click)="selectImage(image)"
+    class="images-container"
+    [alt]="image.title"
+    [class.selected]="image === selectedImage"
+  />
+   </div>
+    <div>
+      <button
+      mat-button
+      (click)="prevPage()" [disabled]="currentPage === 0"
+    >
+      Anterior
+    </button>
+    <button
+      mat-button
+      (click)="nextPage()" [disabled]="(currentPage + 1) * pageSize >= images.length"
+    >
+      Siguiente
+    </button>
+    </div>
+  </div>
+
+  <div class="image-list-selected">
+    <img
+      [src]="selectedImage.src"
+      [alt]="selectedImage.title"
+      [style.width.px]="imageSize"
+      [id]="selectedImage.id"
+      class="selectedImage"
+    />
+  </div>
+
+  <div class="controls">
+    <div>
+      <button
+        mat-button
+        (click)="prevImage()"
+        [disabled]="selectedImage.id === 1"
+      >
+        Anterior
+      </button>
+      <button
+        mat-button
+        (click)="nextImage()"
+        [disabled]="selectedImage.id === images.length"
+      >
+        Siguiente
+      </button>
+    </div>
+    <div>
+      <button mat-button (click)="decreaseSize()">Disminuir</button
+      ><button mat-button (click)="increaseSize()">Aumentar</button>
+      <button mat-button *ngIf="!isPlaying" (click)="play()">Play</button>
+      <button mat-button *ngIf="isPlaying" (click)="stop()">Stop</button>
+    </div>
+  </div>
+</article>
