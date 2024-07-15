@@ -3,11 +3,12 @@ import { Component, OnInit } from '@angular/core';
 import { Gallery } from '../../model';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { RotateDirective } from '../../directive/rotate';
 
 @Component({
   selector: 'app-gallery',
   standalone: true,
-  imports: [CommonModule, MatButtonModule, MatIconModule],
+  imports: [CommonModule, MatButtonModule, MatIconModule, RotateDirective],
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.scss',
 })

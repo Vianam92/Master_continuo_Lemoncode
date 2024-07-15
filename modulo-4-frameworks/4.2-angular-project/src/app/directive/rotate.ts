@@ -1,21 +1,23 @@
 import { Directive, ElementRef, HostListener, Input, OnInit } from '@angular/core';
 
 @Directive({
-  selector: 'img[rotate]'
+  selector: 'img[rotate]',
+  standalone: true,
 })
 export class RotateDirective implements OnInit {
-  @Input() rotate: number = 0;
+  @Input() rotate: string = "0";
   @Input() step: number = 10;
   currentRotation: number = 0;
 
   constructor(private el: ElementRef) {}
 
   ngOnInit() {
-    this.currentRotation = this.rotate;
+    this.currentRotation = Number(this.rotate);
     this.applyRotation();
   }
 
   @HostListener('click', ['$event'])
+
   onClick(event: MouseEvent) {
     if (event.shiftKey) {
       this.currentRotation -= this.step;
