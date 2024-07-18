@@ -1,4 +1,4 @@
-/* import { css } from '@emotion/css';
+import { css } from '@emotion/css';
 import { theme } from 'core/theme';
 
 export const root = css`
@@ -6,7 +6,7 @@ export const root = css`
   flex-direction: column;
 `;
 
-/* export const items = css`
+export const items = css`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 4rem;
@@ -19,4 +19,3 @@ export const root = css`
 export const item = css`
   padding: 2rem 0rem;
 `;
- */ 
