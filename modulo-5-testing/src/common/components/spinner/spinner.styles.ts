@@ -1,4 +1,4 @@
-import { css } from '@emotion/css';
+/* import { css } from '@emotion/css';
 import { theme } from 'core/theme';
 
 export const modal = css`
@@ -17,3 +17,4 @@ export const loaderContainer = css`
   align-items: center;
   outline: none;
 `;
+ */
