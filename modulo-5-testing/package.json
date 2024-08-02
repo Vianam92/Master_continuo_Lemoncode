@@ -12,6 +12,8 @@
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "test": "jest -c ./config/test/jest.js --verbose",
+    "test:e2e": "cypress open",
+    "test:start": "npm run start -- test:e2e",
     "test:watch": "npm run test -- --watchAll -i",
     "clean": "rimraf dist"
   },

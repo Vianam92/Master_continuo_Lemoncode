@@ -36,4 +36,13 @@ describe('Project Mapper', () => {
 
     expect(result).toEqual(expectedProject);
   });
+  it('should return empty project when project is undefined', () => {
+    const project: apiModel.Project = undefined;
+
+    const expectedProject: viewModel.Project = viewModel.createEmptyProject(); 
+
+    const result = mapProjectFromApiToVm(project);
+
+    expect(result).toEqual(expectedProject);
+  });
 });
