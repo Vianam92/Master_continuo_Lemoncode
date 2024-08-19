@@ -1,13 +1,12 @@
 import { CharacterEntityApi } from './character-collection.api-model';
-import { mockCharacterCollection } from './character-collection.mock-data';
-
-let characterCollection = [...mockCharacterCollection];
 
 export const getCharacterCollection = async (): Promise<CharacterEntityApi[]> => {
-  return characterCollection;
+  const response = await fetch("https://rickandmortyapi.com/api/character");
+  const result = await response.json();
+  return result.results;
 };
 
-export const deleteCharacter = async (id: string): Promise<boolean> => {
+/* export const deleteCharacter = async (id: string): Promise<boolean> => {
   characterCollection = characterCollection.filter((h) => h.id !== id);
   return true;
-};
+}; */

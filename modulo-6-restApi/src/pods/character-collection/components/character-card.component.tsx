@@ -8,45 +8,45 @@ import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar/Avatar';
 import IconButton from '@mui/material/IconButton/IconButton';
 import EditIcon from '@mui/icons-material/Edit';
-import DeleteIcon from '@mui/icons-material/Delete';
+// import DeleteIcon from '@mui/icons-material/Delete';
 import { CharacterEntityVm } from '../character-collection.vm';
 import * as classes from './character-card.styles';
+import { RemoveRedEye } from '@mui/icons-material';
 
 interface Props {
   character: CharacterEntityVm;
-  onEdit: (id: string) => void;
-  onDelete: (id: string) => void;
+  detail: (id: string) => void;
 }
 
 export const CharacterCard: React.FunctionComponent<Props> = (props) => {
-  const { character, onEdit, onDelete } = props;
+  const { character, detail } = props;
 
   return (
     <Card>
       <CardHeader
-        avatar={<Avatar aria-label="Character">{character.rating}</Avatar>}
+        avatar={<Avatar aria-label="Character">{character.status}</Avatar>}
         title={character.name}
-        subheader={character.address}
+        subheader={character.species}
       />
       <CardContent>
         <div className={classes.content}>
           <CardMedia
-            image={character.picture}
+            image={character.image}
             title={character.name}
             style={{ height: 0, paddingTop: '56.25%' }}
           />
           <Typography variant="subtitle1" gutterBottom>
-            {character.description}
+            {character.gender}
           </Typography>
         </div>
       </CardContent>
       <CardActions>
-        <IconButton onClick={() => onEdit(character.id)}>
-          <EditIcon />
+        <IconButton onClick={() => detail(character.id)}>
+           <RemoveRedEye/>
         </IconButton>
-        <IconButton onClick={() => onDelete(character.id)}>
+{/*         <IconButton onClick={() => onDelete(character.id)}>
           <DeleteIcon />
-        </IconButton>
+        </IconButton> */}
       </CardActions>
     </Card>
   );
