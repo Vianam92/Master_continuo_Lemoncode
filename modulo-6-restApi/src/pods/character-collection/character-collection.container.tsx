@@ -19,10 +19,6 @@ export const CharacterCollectionContainer = () => {
     loadCharacterCollection();
   }, [bestSentences]);
 
-  const handleCreateCharacter = () => {
-    navigate(linkRoutes.createCharacter);
-  };
-
   const handleDetail = (id: string) => {
     navigate(LinkRouteDetail.characterDetail(id));
   };
@@ -39,7 +35,6 @@ export const CharacterCollectionContainer = () => {
   return (
     <CharacterCollectionComponent
       characterCollection={characterCollection}
-      onCreateCharacter={handleCreateCharacter}
       detail={handleDetail}
       onEdit={handleEditBestSentences}
     />

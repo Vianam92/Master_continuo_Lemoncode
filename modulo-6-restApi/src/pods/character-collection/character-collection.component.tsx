@@ -6,7 +6,6 @@ import * as classes from './character-collection.styles';
 
 interface Props {
   characterCollection: CharacterEntityVm[];
-  onCreateCharacter: () => void;
   detail: (id: string) => void;
   onEdit: (id: string, character: CharacterEntityVm, bestSentences: string[]) => void;
 }
@@ -14,11 +13,11 @@ interface Props {
 export const CharacterCollectionComponent: React.FunctionComponent<Props> = (
   props
 ) => {
-  const { characterCollection, onCreateCharacter, detail, onEdit } = props;
+  const { characterCollection, detail, onEdit } = props;
 
   return (
     <div className={classes.root}>
-      <Button variant="contained" color="primary" onClick={onCreateCharacter}>
+      <Button variant="contained" color="primary">
         Add character
       </Button>
 

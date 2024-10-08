@@ -4,7 +4,6 @@ interface SwitchRoutes {
   root: string;
   characterCollection: string;
   characterDetail: string;
-  createCharacter: string;
   editCharacter: string;
 }
 
@@ -12,7 +11,6 @@ export const switchRoutes: SwitchRoutes = {
   root: '/',
   characterCollection: '/characters',
   characterDetail: '/characters/detail/:id',
-  createCharacter: '/character/create',
   editCharacter: '/character/:id',
 };
 
