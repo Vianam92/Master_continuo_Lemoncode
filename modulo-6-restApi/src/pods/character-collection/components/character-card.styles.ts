@@ -5,3 +5,10 @@ export const content = css`
   flex-direction: column;
   justify-content: center;
 `;
+
+export const list = css`
+  padding-left:0;
+  div{
+    display:flex;
+  }
+`

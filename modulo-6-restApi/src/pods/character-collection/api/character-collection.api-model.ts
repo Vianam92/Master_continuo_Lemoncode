@@ -6,4 +6,5 @@ export interface CharacterEntityApi {
   type: string;
   gender: string;
   image: string;
+  bestSentences: string[];
 }

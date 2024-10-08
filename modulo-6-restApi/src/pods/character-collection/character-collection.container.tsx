@@ -4,14 +4,20 @@ import { LinkRouteDetail, linkRoutes } from 'core/router';
 /* import { deleteCharacter } from './api'; */
 import { useCharacterCollection } from './character-collection.hook';
 import { CharacterCollectionComponent } from './character-collection.component';
+import { CharacterEntityVm } from './character-collection.vm';
 
 export const CharacterCollectionContainer = () => {
-  const { characterCollection, loadCharacterCollection } = useCharacterCollection();
+  const {
+    characterCollection,
+    loadCharacterCollection,
+    modifyBestSentences,
+    bestSentences,
+  } = useCharacterCollection();
   const navigate = useNavigate();
 
   React.useEffect(() => {
     loadCharacterCollection();
-  }, []);
+  }, [bestSentences]);
 
   const handleCreateCharacter = () => {
     navigate(linkRoutes.createCharacter);
@@ -20,7 +26,11 @@ export const CharacterCollectionContainer = () => {
   const handleDetail = (id: string) => {
     navigate(LinkRouteDetail.characterDetail(id));
   };
-/* 
+
+  const handleEditBestSentences = (id: string,character:CharacterEntityVm, bestSentences: string[]) => {
+    modifyBestSentences(id, character, bestSentences);
+  }
+  /* 
   const handleDelete = async (id: string) => {
     await deleteCharacter(id);
     loadCharacterCollection();
@@ -31,7 +41,7 @@ export const CharacterCollectionContainer = () => {
       characterCollection={characterCollection}
       onCreateCharacter={handleCreateCharacter}
       detail={handleDetail}
-/*       onDelete={handleDelete} */
+      onEdit={handleEditBestSentences}
     />
   );
 };
