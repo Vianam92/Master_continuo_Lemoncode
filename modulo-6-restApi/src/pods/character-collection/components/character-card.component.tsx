@@ -11,7 +11,8 @@ import EditIcon from '@mui/icons-material/Edit';
 // import DeleteIcon from '@mui/icons-material/Delete';
 import { CharacterEntityVm } from '../character-collection.vm';
 import * as classes from './character-card.styles';
-import { RemoveRedEye, Save } from '@mui/icons-material';
+import { Padding, RemoveRedEye, Save } from '@mui/icons-material';
+import { Input } from '@mui/material';
 
 interface Props {
   character: CharacterEntityVm;
@@ -75,7 +76,7 @@ export const CharacterCard: React.FunctionComponent<Props> = (props) => {
 
             <div>
               {isEdit ? (
-                <input
+                <Input
                   type="text"
                   placeholder="Escribe una frase"
                   onChange={handleGetSentence}
@@ -84,7 +85,7 @@ export const CharacterCard: React.FunctionComponent<Props> = (props) => {
                 ''
               )}
             </div>
-            <ul>
+            <ul style={{padding:"10px 0"}}>
               {character.bestSentences ? (
                 <li>{character.bestSentences}</li>
               ) : (
